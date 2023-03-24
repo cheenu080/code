@@ -4,12 +4,22 @@ using namespace std;
 void printSubSeq(int index , vector<int>&ds , int arr[],int n){
 
   if(index==n){
-    for(auto it:ds) cout<<it<<" ";
     
+    for(auto it:ds) cout<<it<<" ";
+
+    if(ds.size()==0) cout<<"{}";
+
+    cout<<endl;
+    
+    return;
+
   }
+  printSubSeq(index+1,ds,arr,n);//notPick
+  ds.push_back(arr[index]);
+
+  printSubSeq(index+1,ds,arr,n);//Pick
+  ds.pop_back();
 }
-
-
 
 int main(){
 
