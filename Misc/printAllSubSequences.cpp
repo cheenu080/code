@@ -14,11 +14,11 @@ void printSubSeq(int index , vector<int>&ds , int arr[],int n){
     return;
 
   }
-  printSubSeq(index+1,ds,arr,n);//notPick
-  ds.push_back(arr[index]);
-
-  printSubSeq(index+1,ds,arr,n);//Pick
+  ds.push_back(arr[index]); // 3 inserted 
+  printSubSeq(index + 1, ds, arr, n); // Pick .....
   ds.pop_back();
+  printSubSeq(index + 1, ds, arr, n); // notPick
+
 }
 
 int main(){
