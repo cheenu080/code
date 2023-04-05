@@ -15,9 +15,9 @@ class LinkedList {
       head = NULL;
     }
 /*-----------------------------------------------------*/
-    void insert(int value) {
+    void insert(int x) {
       struct node *newNode = new node;
-      newNode->data = value;
+      newNode->data = x;
       newNode->next = NULL;
       if (head == NULL) {
         head = newNode;
@@ -134,7 +134,8 @@ class LinkedList {
   int middleNode() {
     struct node *s = head;
     struct node *s1 = head;
-
+    // In each iteration, s1 pointer moves two nodes ahead, and s pointer moves one node ahead.
+    // s moves one node ahead.
     while (s1 != NULL && s1->next != NULL) {
         s1 = s1->next->next;
         s = s->next;
