@@ -1,1 +1,0 @@
-{"name":"Local: Distinct K","url":"/home/chinu/Documents/Code/Unstop/Distinct K.cpp","tests":[{"id":1680373093692,"input":"3\naaa\naa\na\n1\n","output":"a"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/chinu/Documents/Code/Unstop/Distinct K.cpp","group":"local","local":true}
