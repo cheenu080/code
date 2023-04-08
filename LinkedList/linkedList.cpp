@@ -9,7 +9,7 @@ struct node {
 
 class LinkedList {
   private:
-      struct node *head;
+    struct node *head;
   public:
     LinkedList() {
       head = NULL;
@@ -148,40 +148,40 @@ class LinkedList {
 };
 
 int main() {
-    LinkedList list;
+  LinkedList list;
 
-    list.insert(42);
-    list.insert(12);
-    list.insert(31);
-    list.insert(9);
-    list.insert(5);
-    list.insert(16);
-    list.display();
-    cout<<endl;
+  list.insert(42);
+  list.insert(12);
+  list.insert(31);
+  list.insert(9);
+  list.insert(5);
+  list.insert(16);
+  list.display();
+  cout<<endl;
 
-    list.addXatend(100);
-    list.display();
-    cout << endl;
+  list.addXatend(100);
+  list.display();
+  cout << endl;
 
-    list.addXbeforeY(99,100);
-    list.display();
-    cout << endl;
+  list.addXbeforeY(99,100);
+  list.display();
+  cout << endl;
 
-    list.deleteX(31);
-    list.display();
-    cout << endl;
+  list.deleteX(31);
+  list.display();
+  cout << endl;
 
-    list.MoveLastNodeToFront();
-    list.display();
-    cout << endl;
+  list.MoveLastNodeToFront();
+  list.display();
+  cout << endl;
 
-    int ans =list.KthNodeFromLast(3);
-    cout<<ans;
-    cout << endl;
+  int ans =list.KthNodeFromLast(3);
+  cout<<ans;
+  cout << endl;
 
-    cout<<endl;
-    int middle = list.middleNode();
-    cout << "Middle node: " << middle << endl;
+  cout<<endl;
+  int middle = list.middleNode();
+  cout << "Middle node: " << middle << endl;
 
-    return 0;
+  return 0;
 }
