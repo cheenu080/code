@@ -6,7 +6,7 @@ class Solution
 	
 	// code start.
 	{
-        
+		
     }
     //code end
 };
