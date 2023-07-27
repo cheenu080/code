@@ -1,3 +1,5 @@
+//do smth instead of nothing , stay organized , WRITE STUFF DOWN , DON'T GET STUCK ON ONE APPROACH
+# define ll long long
 #include<bits/stdc++.h>
 using namespace std;
 
