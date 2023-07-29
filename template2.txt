@@ -1,14 +1,15 @@
+# define pi 3.14159265358979
+# define ll long long
+# define help for(auto it:v)cout<<it<<" "
+# define endl "\n"
 
-class Solution
-{
+class Solution{
+
 	public:
-	//function
-	
-	// code start.
 	{
-		
+		//code here
     }
-    //code end
+
 };
 
 //driver code is present by default

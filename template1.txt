@@ -1,8 +1,11 @@
-//do smth instead of nothing , stay organized , WRITE STUFF DOWN , DON'T GET STUCK ON ONE APPROACH
+# define pi 3.14159265358979
 # define ll long long
+# define help for(auto it:v)cout<<it<<" "
+# define endl "\n"
+
 #include<bits/stdc++.h>
 using namespace std;
 
 int main(){
-  
+	
 }
