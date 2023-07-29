@@ -2,13 +2,13 @@
 # define help for(auto it:v)cout<<it<<" "
 //use M_PI for value of pi
 
-class Solution{
+class Solution {
 
-	public:
+public:
 	{
-		//code here
+	    //code here
 
-    }
+	}
 
 };
 
