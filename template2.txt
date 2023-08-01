@@ -4,8 +4,7 @@
 
 class Solution{
 
-	public:
-	{
+	public:{
 		//code here
 
     }
