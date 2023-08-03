@@ -1,6 +1,6 @@
 # define ll long long
+# define ull unsigned long long
 # define help for(auto it:v)cout<<it<<" "
-//use M_PI for value of pi
 
 class Solution{
 
